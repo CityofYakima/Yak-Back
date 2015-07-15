@@ -3,9 +3,9 @@
 This project is the citizen response system built by the City of Yakima. 
 
 ##Requirements
-*PHP/MYSQL
-*Webserver
-*ESRI Geocode Service
+* PHP/MYSQL
+* Webserver
+* ESRI Geocode Service
 
 ##Installation
 This system was not fully prepared to be re-used, so there are several steps you must take to get it working in your environment.
