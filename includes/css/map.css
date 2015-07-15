@@ -1,0 +1,34 @@
+/* CSS Document */
+#map {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding:0;
+}
+.page-map, #mapcontent, .ui-content {
+	width: 100%;
+	height:100%;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* place the position accuracy at this location on the map */
+#mapMessages {
+	background:#FFF;
+	opacity: .7;
+	padding: 3px;
+	position:absolute;
+	top: 70px;
+	right: 10px;
+	z-index:999;
+}
+
+.nav-glyphish .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+.nav-glyphish .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+
+/* map toolbar icons */
+#backmap .ui-icon { background:  url(../images/39-back.png) 50% 50% no-repeat;  background-size: 16px 16px; }
+#locationmap .ui-icon { background:  url(/apps/yakima-connect/images/74-location.png) 50% 50% no-repeat;  background-size: 20px 20px; }
+#addressmap .ui-icon { background:  url(/apps/yakima-connect/images/18-envelope.png) 50% 50% no-repeat;  background-size: 24px 16px; }
+#reportmap .ui-icon { background:  url(/apps/yakima-connect/images/216-compose.png) 50% 50% no-repeat;  background-size: 23px 18px; }
+#zoomdefault .ui-icon { background:  url(/apps/yakima-connect/images/11-arrows-out.png) 50% 50% no-repeat;  background-size: 23px 23px; }

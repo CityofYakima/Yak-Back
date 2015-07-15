@@ -1,0 +1,15 @@
+CHANGES MADE TO JQUERY MOBILE
+
+ANY PLACE I FOUND THE FOLLOWING
+
+httpCleanup();
+return;
+
+I REPLACED WITH
+
+httpCleanup();
+//use default click handling
+event.preventDefault(); // prevent the browser from going there
+window.location.href=href; // Make the current window load the new page Nb
+                          // the href var has already been set for us above
+return;
