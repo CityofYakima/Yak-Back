@@ -14,5 +14,9 @@ This system was not fully prepared to be re-used, so there are several steps you
 * Edit /includes/php/include.php to use your connect information for your mySQL database
 * Edit /includes/js/map.js on line 185 to use your ESRI Geocode Service
 
+##Bugs
+Please use github to let us know if there are any issues, and we will try and get them taken care of.
+
+
 ##Further Production
 In a future release, the mySQL dependecy will be replace with a geoDB. It will also heavily be rewritten to be more map-centric.
